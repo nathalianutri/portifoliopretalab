@@ -1,0 +1,143 @@
+* {
+    border:0;
+    padding:0;
+    border:0;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:0;
+    margin-right: 0;
+}
+.cabecalho {
+    background-color:#BE89CB;
+    height: 103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none; /*retira as bolinhas */
+    display:inline;
+    margin-right: 30px;
+    text-decoration: none; /* retira o traco embaixo do link*/
+}
+
+nav a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.lista-menu li>a {
+    color: #FFFFFF;
+    font-size: 18px;
+   
+}
+
+.perfil {
+    background-color:#EDEAEA;
+    height:579px;
+    text-align: center;
+}
+.descricao {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    width: 490px;
+    
+}
+
+img{
+    margin-top:48px;
+    margin-bottom:26px;
+    height: 180px;
+    width: 180px;
+}
+.formacao{
+    background-color: #E5E5E5;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+.projeto {
+    background-color: #eeeeeefc;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+
+}
+.final {
+    background-color:#BE89CB;
+    height: 198px;
+    width: 100%;
+}
+    
+    
+
+li.fim {  font-size: 18px;
+    color: white;
+    font-weight: 700px;
+    margin-left: 0px;
+    text-align: left;
+  }
+    
+      
+.subtitulos {
+    
+    margin-bottom: 50px;
+    color: #d573a6;
+    font-size: 24px;
+    margin-right: 500px;
+}
+
+h1 { color: #d573a6;}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width:800px;
+    
+    
+}
+.artigo-formacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* essa el */
+.lista-formacao {
+    padding-left:  32px;
+    
+
+}
+.link-formacao { 
+    color: blue;
+    font-size: 14px;
+}
+
+.descricao-formacao {
+    font-size: 14px;
+    margin-top: 8px;
+    color:rgb(17, 6, 8);
+    margin-bottom: 53px;
+   
+}
+
+.descricaoProjetos {
+    color: #661E4B ;
+    font-size: 16px;
+}
+
+.nomeprojeto {
+    color: #828282;
+    font-size: 16px;
+}
